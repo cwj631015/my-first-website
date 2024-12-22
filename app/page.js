@@ -1,5 +1,5 @@
 // 寫註解可使用快捷鍵: ctrl + / (cmd + /)
-import Link from "next/Link"
+import Link from "next/link"
 import TripCard from '@/components/TripCard';
 import tripList from '@/data/trip-list';
 import faqList from "@/data/faq-list"
