@@ -5,13 +5,13 @@ export default function Faq() {
     return (
         <>
             <header className="py-10 bg-neutral-100 text-center">
-                <h1>常見問答</h1>
+                <h1 className="text-2xl font-blod mb-4">常見問答</h1>
                 <p>以下是我們整理的常見問</p>
                 <Link href="/" className="my-4 inline-block">返回首頁</Link>
 
             </header>
 
-            <select className="bg-neutral-200 py-10">
+            <section className="bg-neutral-200 py-10">
                 <div className="container mx-auto">
                     {
 
@@ -31,7 +31,7 @@ export default function Faq() {
 
                 </div>
 
-            </select>
+            </section>
 
         </>
     )

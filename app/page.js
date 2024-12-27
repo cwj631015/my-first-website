@@ -25,7 +25,7 @@ export default function Home() {
       </header>
       <section id="tripListSection" className="my-4">
         <div className="container mx-auto px-10 sm:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {/* TODO: 請在此處放入一系列的產品卡片 */}
+          {/* 請在此處放入一系列的產品卡片 */}
           {cards}
 
 
@@ -35,7 +35,7 @@ export default function Home() {
         <div className="container mx-auto">
           <h1>HTML標籤</h1>
           <p>用以表達你想在網頁上放入的各種內容</p>
-          {/* TODO: 請嘗試在此處放入HTML標籤 */}
+          {/*請嘗試在此處放入HTML標籤 */}
           <h1>標題字</h1>
           {/* 標題字h1-h6> */}
           <h1>heading1</h1>
